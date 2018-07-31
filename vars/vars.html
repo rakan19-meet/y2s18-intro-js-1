@@ -11,9 +11,14 @@
     <script>
     	var birthyear = parseInt( prompt("which year were you born in?") );
     	var luckyNumber = parseInt(prompt("	what is your lucky number?") );
-    	var FavFruit = "passion fruit"
-    	var FavSubject = "Chemistry"
-    	document.write (birthyear% luckyNumber)
+    	var FavFruit = prompt ("what is ur favourite fruit")
+    	var FavSubject = prompt("what is ur favourite subject")
+    	document.write (birthyear% luckyNumber + "<br>");
+    	document.write (birthyear + luckyNumber + "<br>");
+    	document.write (birthyear + FavSubject + "<br>");
+    	document.write (FavFruit + birthyear + luckyNumber + "<br>");
+    	document.write (birthyear + luckyNumber + FavSubject + "<br>");
+
     	
 
 
